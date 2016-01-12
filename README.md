@@ -2,6 +2,10 @@
 
 ## Description
 
+[On Github](https://github.com/Jeff-Russ/onscreen-console_js)
+[LivePage-md](http://www.jeffruss.com/?gh=Jeff-Russ/onscreen-console_js/master/README)
+[source](https://raw.githubusercontent.com/Jeff-Russ/onscreen-console_js/master/oscon.js)
+
 This is a collection of handy functions for debugging Javascript using an overlay
 on the web page as a console. 
 
