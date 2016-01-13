@@ -18,11 +18,15 @@ To make the logging functions enabled, add this
     window.on_screen_console(true);
 
 This will enable the logging but it will be hidden by default. The key combination
-backtick-s will show the console. 
+backtick-s will show the console. To enable the visiblity via code, call like this:
 
-If you want to enable and show with the key combination you can use this instead:
+    window.on_screen_console(true, true);
+    
+You can clear the console in real-time with a key combo but if you'd like to do 
+it in the script, call:
 
-    window.init_on_screen_console();
+    window.clear_on_screen_console();
+    
     
 ## Key Combinations
 
