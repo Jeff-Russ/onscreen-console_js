@@ -30,18 +30,35 @@ it in the script, call:
     
 ## Key Combinations
 
->\`s shows console  
->\`h hides console  
 >\`e enables console  
 >\`d disables console  
->\`c clears console  
+>\`s shows console  
+>  h hides console  
+>  c clears console  
+>  f trigger a function
 
 ## Logging Functions
 
 log a newline followed by a non urgent message:
 
     window.log("test");
+    
+set (replace text on) the upper right pane:
 
+    window.log1("test");
+    
+set (replace text on) the second upper right pane:
+
+    window.log2("test");
+
+set (replace text on) the third right pane:
+
+    window.log3("test");
+    
+set (replace text on) the lower right pane:
+
+    window.log4("test");
+    
 log a newline followed by a warning message:
 
     window.warn("test");
