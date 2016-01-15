@@ -11,6 +11,9 @@
 This is a collection of handy functions for debugging Javascript using an overlay
 on the web page as a console. 
 
+![](https://s3.amazonaws.com/shared-img-res/onscreen-console_js/oscon.png)
+
+
 ## Instructions 
 
 To make the logging functions enabled, add this
