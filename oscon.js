@@ -1,9 +1,7 @@
-// oscon.js
-/* By Jeff Russ https://github.com/Jeff-Russ
-~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._*/
-
-//= require jquery
-//= require jquery_ujs
+ /*~~._.~~._.~~._.~~._.~~._.~~._.~~._~~._.~~._.~~._.~~._.~~._.~~._.~~._~~._.~~*\
+|        oscon.js           part of markdown.design                             |
+|        By Jeff Russ       https://github.com/Jeff-Russ                        |
+ \._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~._.~~.*/
 
 var html = "<div id='ocbg' style='background-color:black;visibility:hidden;position:fixed;z-index:9000;pointer-events:none;opacity:1;left:0%;top:0%;height:100%;width:100%;'></div><div id='on_screen_console'style='visibility:hidden;position:fixed;z-index:9999;text-shadow: 2px 2px black;color:#EEF;font-weight:100;font-family:Monaco,Courier New,monospace;font-size:12px;pointer-events:none;'><div id='left_console'style='position:fixed;left:0%;top:0%;width:65%;border:1px solid white;'></div><div id='right_console_1'style='position:fixed;left:75%;top:0%;width:25%;height:25%;border:1px solid white;'></div><div id='right_console_2'style='position:fixed;left:75%;top:25%;width:25%;height:25%;border:1px solid white;'></div><div id='right_console_3'style='position:fixed;left:75%;top:50%;width:25%;height:25%;border:1px solid white;'></div><div id='right_console_4'style='position:fixed;left:75%;top:75%;width:25%;height:25%;border:1px solid white;'></div></div>";
 var pnt_evts = false, on_screen_console_bool, show_on_screen_console_bool;
@@ -171,7 +169,7 @@ window.oscon_keys = function(arg)
       $(document).unbind('keydown');
       $(document).unbind('keyup');
    }
-};
+}
 
 // missing numbers: 10-12,14,15,21-26,28-31,41-44,49,58-64,
 //                  94,95,108,124-143,146-185,193-218
@@ -212,7 +210,7 @@ var on_screen_console_bool;
 // make console messages visible:
 function show_on_screen_console(bool){ 
    show_on_screen_console_bool = bool;
-   window.log(show_on_screen_console_bool);
+   window.log(show_on_screen_console_bool)
    if (bool) { 
       $('#on_screen_console').css('visibility','visible');
    } else { 
