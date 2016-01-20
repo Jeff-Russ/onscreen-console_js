@@ -2,7 +2,7 @@
   
 [On Github](https://github.com/Jeff-Russ/onscreen-console_js)
 <br /><br />
-[LivePage-md](http://www.jeffruss.com/?gh=Jeff-Russ/onscreen-console_js/master/README)
+[markdown.design](http://www.jeffruss.com/?doch&ghrm=Jeff-Russ/onscreen-console_js)
 <br /><br />
 [source](https://raw.githubusercontent.com/Jeff-Russ/onscreen-console_js/master/oscon.js)
 <br /><br />
